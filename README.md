@@ -5,6 +5,13 @@ This is a flake to install [Nook Desktop](https://github.com/mn6/nook-desktop) o
 
 ## Usage
 
+### Run directly
+```sh
+nix run github:sammypanda/nixos-nook-desktop
+```
+
+### Or install to your system
+
 Add the following in your flake inputs:
 
 ```nix
@@ -21,7 +28,7 @@ Add the following in your flake inputs:
     # ...
 ```
 
-...and in outputs you can overlay and add to system or user packages as ``pkgs.nook-desktop``. Or instead just add to system or user packages without overlaying.
+...and in outputs you can overlay and add to system or user packages as ``pkgs.nook-desktop``. Or instead just add ``nook-desktop.packages.YOURPLATFORM.default`` to system or user packages without overlaying.
 
 ```nix
     # ...
