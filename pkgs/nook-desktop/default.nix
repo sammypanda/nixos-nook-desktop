@@ -87,7 +87,7 @@ buildNpmPackage rec {
       terminal = false;
     })
   ];
-n
+
   meta = with lib; {
     mainProgram = "nook-desktop";
     description = "A flake of Nook Desktop, the desktop edition of the extension created for people who love to listen to Animal Crossing's hourly music all day, every day.";
