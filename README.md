@@ -9,6 +9,10 @@ This is a flake to install [Nook Desktop](https://github.com/mn6/nook-desktop) o
 ```sh
 nix run github:sammypanda/nixos-nook-desktop
 ```
+###### if you get an error about "experimental features" do instead:
+```sh
+nix run github:sammypanda/nixos-nook-desktop --extra-experimental-features flakes --extra-experimental-features nix-command
+```
 
 ### Or install to your system
 
