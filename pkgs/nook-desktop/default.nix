@@ -83,7 +83,6 @@ buildNpmPackage rec {
       desktopName = "Nook Desktop";
       comment = meta.description;
       categories = [ "Music" "Audio" ];
-      mimeTypes = [ "x-scheme-handler/jitsi-meet" ];
       terminal = false;
     })
   ];
